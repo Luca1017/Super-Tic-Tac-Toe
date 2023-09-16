@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Tic Tac Toe</title>
+</head>
+
+<body>
+    <h1 id="title"><u>Super Tic Tac Toe</u></h1>
+    <br>
+
+    <div class="info">
+        <h4 id="client_id">Client ID: not working</h4>
+        <h4 id="game_status">Game status: not started</h4>
+        <h4 id="enemy_id"></h4>
+        <h4 id="player_symbol"></h4>
+        <h4 id="turn_player"></h4>
+    </div>
+
+    <br>
+    <br>
+
+    <div style="display:flex; justify-content:center; width:100%; text-align:center;">
+        <label for="enemy_client_id">Friend's Client ID</label>
+    </div>
+    <div style="display:flex; justify-content:center; width:100%; text-align:center;">
+        <div>
+            <input type="text" id="enemy_client_id">
+        </div>
+        <div>
+            <input type="submit" id="submit_enemy_client_id">
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.min.js"></script>
+<script src="sketch.js"></script>
+
+</html>
